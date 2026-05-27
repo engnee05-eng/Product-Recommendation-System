@@ -42,7 +42,7 @@ const EXAMPLE_CHIPS = [
   "Smart home starter",
 ];
 
-const GROQ_KEY = import.meta.env.VITE_GROQ_API_KEY;
+const GROQ_KEY = "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";
 
 // ─── Groq AI (Llama 3) ───────────
 async function getAIRecommendations(userPreference) {
